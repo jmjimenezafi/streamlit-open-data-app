@@ -19,6 +19,7 @@ st.title("Webcetas - Dashboard de Recetas de Cocina")
 import streamlit as st
 
 
+
 @st.cache_data
 def load_data():
     import pandas as pd
